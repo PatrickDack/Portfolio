@@ -5,80 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <style>
-        h1 {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            
-            }
-
-        .h {
-            color: #fca311;
-        }    
-
-        body {
-            background-color: #000000;
-            color: #e5e5e5;
-        }
-
-
-        #foto1 {
-            border-radius: 50%;
-            background-color: #fca311;
-            padding: 10px;
-        }
-
-        #about {
-            width: 310px;
-            font-family: sans-serif;
-            text-align: center;
-        }
-
-        .sk1 {
-            font-size: 2em;
-        }
-
-        .sk2 {
-            font-size: 2em;
-        }
-
-        .sk3 {
-            font-size: 1.5em;
-        }
-
-        .sk4 {
-            font-size: 1.5em;
-        }
-
-        a {
-            text-decoration: none;
-            color: #e5e5e5;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!--  
     <ul>
         <li><a href="#about">Quem sou eu</a></li>
         <li><a href="#foto1">Foto</a></li>
         <li><a href="#skills">Abilidades</a></li>
     </ul>
+    -->
+<div class="header">  
+    <h1 class="h">
+        Patrick Dack Figueiredo Santos
+    </h1>
+</div>
 
-    <h1 class="h">Patrick Dack Figueiredo Santos</h1>
+<div class="sec-one">
+  
 
-    <img id="foto1" width="300px" src="./images/perfilpeb.jpg" alt="Foto de Patrick Dack">
-    <p id="about">Atualmente estudante de Desenvolvimento Web pela Trybe, apaixonado por tecnologia e tudo relacionado a ela. Cursei Matemática pela UFJM por seis peŕiodos, foi onde tive o cantato com programação pela primeira vez. </p>
+    <img class="object-left" src="./images/perfilpeb.jpg" alt="Foto de Patrick Dack">
 
-    <h4 class="h">Nacionalidade: Brasileiro<br> Teófilo Otoni - MG</h4>
+    <p class="about object-right">Atualmente estudante de Desenvolvimento Web pela Trybe, apaixonado por tecnologia e tudo relacionado a ela. Cursei Matemática pela UFJM por seis peŕiodos, foi onde tive o cantato com programação pela primeira vez. <br> <br> Nacionalidade: Brasileiro<br> Teófilo Otoni - MG</p>
 
+    
+</div>
+
+<div class="sec-two">
+    <h2 class="h">Abilidades</h2>
+   <div class="itens">
     <ul>
-        <h2 id="skills" class="h">Abilidades</h2>
-        <li class="sk1"><strong>Baterista e Mult Instrumentista</strong></li>
-        <li class="sk2">Desenhista</li>
-        <li class="sk3">Cubista<a href="https://cubovelocidade.com.br/" target="_blank"> (Saiba mais)</a></li>
-        <li class="sk4"><strong>Desiner Gráfico e Editor de Vídeos</strong></li>
+        <li class="sk">HTML</li>
+        <li class="sk">CSS</li>
+        <li class="sk">JavaScript</li>
+        <li class="sk">Dart</li>
+        <li class="sk">Phyton</li>
     </ul>
+   </div>
+</div>
     
 </body>
 </html>
