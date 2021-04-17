@@ -1,0 +1,47 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+
+.h {
+    color: #fca311;
+}    
+
+body {
+    background-color: #000000;
+    color: #e5e5e5;
+}
+
+
+#foto1 {
+    border-radius: 50%;
+    background-color: #fca311;
+    padding: 10px;
+}
+
+#about {
+    width: 310px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.sk1 {
+    font-size: 2em;
+}
+
+.sk2 {
+    font-size: 2em;
+}
+
+.sk3 {
+    font-size: 1.5em;
+}
+
+.sk4 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
