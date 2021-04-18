@@ -6,13 +6,17 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #e5e5e5;
+    padding: 35px;
     }
 
+    h2 {
+        padding: 35px;
+    }
     
 
 .h {
     text-align: center;
-    margin: 30px;
+    margin: auto;
 }    
 
 body {
@@ -75,4 +79,9 @@ a {
     border-radius: 20%;
     color: black;
     
+}
+
+.sk:hover{
+    font-size: 25px;
+    transition: 500ms;
 }
