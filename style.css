@@ -25,7 +25,7 @@ nav {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: xx-large;
   font-family: Ubuntu, sans-serif;
   color: #e5e5e5;
   padding: 20px;
@@ -53,41 +53,56 @@ a, li {
   margin-bottom: 30px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .sec-one {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  height: 220px;
-  vertical-align: middle;
-  padding: 100px 5px;
-  margin: auto;
+  padding: 120px 0 20px 0;
+  order: 1;
 }
 
 .image {
   width: 150px;
+  flex-grow: 1;
   border-radius: 50%;
   background-color: #fca311;
   padding: 5px;
+  margin: 20px;
 
 }
 
-.about {
+.about-me {
   width: 60%;
+  flex-grow: 1;
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
 
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: x-large;
+  }
+  .sec-one {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 200px;
+  }
 }
 
 .sec-two {
   display: flex;
   flex-direction: column;
-}
-
-.itens {
-  display: flex;
-  justify-content: center;
+  order: 3;
 }
 
 .skill-container {
@@ -107,18 +122,24 @@ a, li {
 }
 
 .sk:hover{
-  font-size: 25px;
-  transition: 500ms;
+  /* font-size: 25px;
+  transition: 500ms; */
 }
 
 .sec-three {
   display: flex;
   flex-direction: column;
   align-items: center;
+  order: 2;
 }
 
 .about-soft-skills {
   display: flex;
   justify-content: center;
   width: 80%;
+}
+
+.footer {
+  display: flex;
+  order: 4;
 }
