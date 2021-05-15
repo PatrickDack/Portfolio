@@ -20,19 +20,21 @@ nav {
 .nav-1 {
   /* border: 2px solid white; */
   display: flex;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-bottom: 10px;
 }
 
 h1 {
   font-size: xx-large;
   font-family: Ubuntu, sans-serif;
   color: #e5e5e5;
-  padding: 20px;
+  padding: 10px;
 }
 
 h2 {
-  padding: 35px;
+  font-size: 32px;
+  padding: 30px;
 }
 
 body {
@@ -44,6 +46,11 @@ a, li {
   list-style: none;
   text-decoration: none;
   color: #e5e5e5;
+  opacity: 0.8;
+}
+
+a, li:hover {
+  opacity: 1;
 }
 
 .header {
@@ -79,7 +86,8 @@ a, li {
 }
 
 .about-me {
-  width: 60%;
+  width: 45%;
+  font-size: 20px;
   flex-grow: 1;
   font-family: sans-serif;
   text-align: left;
@@ -97,21 +105,25 @@ a, li {
   .image {
     width: 200px;
   }
+
+  .about-me {
+    width: 100%;
+  }
 }
 
 .sec-two {
+  width: 80%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   order: 3;
 }
 
 .skill-container {
-  width: 80%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .sk {
@@ -119,11 +131,6 @@ a, li {
   border-radius: 10%;
   padding: 5px;
   color: black;
-}
-
-.sk:hover{
-  /* font-size: 25px;
-  transition: 500ms; */
 }
 
 .sec-three {
@@ -134,12 +141,21 @@ a, li {
 }
 
 .about-soft-skills {
+  font-size: 18px;
   display: flex;
   justify-content: center;
   width: 80%;
 }
 
 .footer {
+  width: 40%;
   display: flex;
+  justify-content: space-evenly;
   order: 4;
+  padding: 20px;
+}
+
+.bi {
+  color: #14213d;
+  font-size: 25px;
 }
