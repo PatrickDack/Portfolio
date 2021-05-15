@@ -148,7 +148,7 @@ a, li:hover {
 }
 
 .footer {
-  width: 40%;
+  width: 60%;
   display: flex;
   justify-content: space-evenly;
   order: 4;
@@ -158,4 +158,5 @@ a, li:hover {
 .bi {
   color: #14213d;
   font-size: 25px;
+  margin: 10px;
 }
